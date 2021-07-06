@@ -1,0 +1,7 @@
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\bin\Debug\Csharp_ConsoleApp_Basics.exe.config
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\bin\Debug\Csharp_ConsoleApp_Basics.exe
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\bin\Debug\Csharp_ConsoleApp_Basics.pdb
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\obj\Debug\Csharp_ConsoleApp_Basics.csprojAssemblyReference.cache
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\obj\Debug\Csharp_ConsoleApp_Basics.csproj.CoreCompileInputs.cache
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\obj\Debug\Csharp_ConsoleApp_Basics.exe
+C:\Users\Nabeel Asif\source\repos\Csharp_ConsoleApp_Basics\Csharp_ConsoleApp_Basics\obj\Debug\Csharp_ConsoleApp_Basics.pdb
