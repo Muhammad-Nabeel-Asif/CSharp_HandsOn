@@ -44,10 +44,10 @@ namespace Csharp_ConsoleApp_Basics
 
             // using  cast () operator conversion =>
              float f = 123456.789F;
-            // int i = (int)f;
+            int i = (int)f;
 
             // or use convert class => , this method is preffered as it throw exceptions if there is a problem !
-            int i = Convert.ToInt32(f);
+            int ii = Convert.ToInt32(f);
 
 
             // => Parse and TryParse methods to convert strings to int types :
@@ -70,6 +70,29 @@ namespace Csharp_ConsoleApp_Basics
             } else
             {
                 Console.WriteLine("Please Enter a Valid Number !");
+            }
+
+
+            // => Working with Arrays :
+
+            // first method ( not preffered )
+
+            int[] marks = new int[3];
+            marks[0] = 95;
+            marks[1] = 90;
+            marks[2] = 85;
+            Console.WriteLine(marks[0]);
+
+            // second method ( preffered )
+
+            int[] marks1 = new int[3] { 50, 60, 70 };
+            Console.WriteLine(marks1[1]);
+
+            // third method ( mostly preffered )
+            int[] marks2 = {40,30,50};
+            for (int i = 0; i < marks2.Length; i++)
+            {
+                Console.WriteLine(marks2[i]);
             }
         }
     }
