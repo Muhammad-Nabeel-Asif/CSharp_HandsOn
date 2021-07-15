@@ -91,9 +91,9 @@ namespace Csharp_ConsoleApp_Basics
 
             // third method ( mostly preffered )
             int[] marks2 = { 40, 30, 50 };
-            for (int i = 0; i < marks2.Length; i++)
+            for (int index = 0; index < marks2.Length; index++)
             {
-                Console.WriteLine(marks2[i]);
+                Console.WriteLine(marks2[index]);
             }
 
 
