@@ -6,7 +6,8 @@ namespace Csharp_ConsoleApp_Basics
     {
         static void Main()
         {
-
+            
+             
             Console.WriteLine("Say Hello to Basics");
 
             // (1)=> Reading and Write to Console 
@@ -260,6 +261,33 @@ namespace Csharp_ConsoleApp_Basics
 
             // executing loops function here :
             loops();
+
+            
+
+            // ---------------------------------------------------------------------------------------------------------------------------------
+
+            // (10) => C# methods / functions :
+
+            Program.evenNumbers(50);
+
+            Program p = new Program();
+            int sum = p.sumNumbers(100, 200);      
+            Console.WriteLine("sum is {0}", sum);
+        }
+
+        public int sumNumbers(int firstNumber, int SecondNumber)
+        {
+            return firstNumber + SecondNumber;
+        }
+
+        public static void evenNumbers(int Range)
+        {
+            int start = 0;
+            while (start <= Range)
+            {
+                Console.WriteLine(start);
+                start += 2;                
+            }
         }
     }
 }
